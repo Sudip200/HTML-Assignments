@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Assignment -3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form>
+        <div class="container">
+            <div id="fname_container">
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname">
+            </div>
+            <div id="lname_container">
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname">
+            </div>
+        </div>
+        <div class="container">
+            <div id="email_container">
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email">
+            </div>
+            <div id="contact_container">
+                <label for="contact">Contact Number:</label>
+                <input type="number" id="contact" name="contact" maxlength="10">
+            </div>
+        </div>
+        <div class="container">
+            <div id="responsive_address_container">
+                <label for="responsive_address">Address:</label>
+                <textarea id="responsive_address" name="responsive_address" cols="21"></textarea>
+            </div>
+            <div id="username_container">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username">
+            </div>
+            <div id="password_container">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+            </div>
+        </div>
+        <div class="container">
+            <div id="address_container">
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" cols="21"></textarea>
+            </div>
+            <div id="gender_radio_container">
+                <label>Gender:</label>
+                <div id="radio_buttons_container">
+                    <div>
+                        <input type="radio" id="male_radio" name="gender" value="male">
+                        <label for="male_radio">Male</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="female_radio" name="gender" value="female">
+                        <label for="female_radio">Female</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="qualification_container">
+                <label for="qualification">Qualification:</label>
+                <select id="qualification" name="qualification">
+                    <option>--Select--</option>
+                    <option value="btech">B.Tech</option>
+                    <option value="mtech">M.Tech</option>
+                    <option value="phd">PhD</option>
+                </select>
+            </div>
+            <div id="experience_container">
+                <label for="experience">Experience:</label>
+                <select id="experience" name="experience">
+                    <option>--Select--</option>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+        </div>
+        <div class="container">
+            <div id="checkbox_containers">
+                <div>
+                    Coding Languages:
+                </div>
+                <div id="languages_container">
+                    <div>
+                        <input type="checkbox" name="c/c++" id="c" value="c/c++">
+                        <label for="c">C/C++</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="java" id="java" value="java">
+                        <label for="java">Java</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="csharp" id="csharp" value="csharp">
+                        <label for="csharp">C#</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="php" id="php" value="php">
+                        <label for="php">PHP</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="python" id="python" value="python">
+                        <label for="python">Python</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="margin-top: 50px;">
+            <input type="submit" value="Submit" id="submit">
+        </div>
+    </form>
+</body>
+
+</html>
